@@ -11,7 +11,9 @@ const getContestant = async (req, res) => {
 const submitVote = async (req, res) => {
   const { data, email } = req.body;
   if (!data || !email) throw new BadRequestError("Can't submit votes");
-  const student = await Students.findOne({ email });
+  const student = await Students.findOne({
+    email: { $regex: email, $options: "i" },
+  });
   if (!student) throw new UnauthorizedError("Unauthorized student");
   if (student.hasVoted) throw new UnauthorizedError("You have already voted!");
   const voteExist = await Vote.findOne({ voteBy: email });

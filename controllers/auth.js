@@ -20,7 +20,9 @@ const insertStudentRecords = async (req, res) => {
 const sendVerificationCode = async (req, res) => {
   const { email } = req.body;
   if (!email) throw new BadRequestError("Please provide email");
-  const user = await Students.findOne({ email });
+  const user = await Students.findOne({
+    email: { $regex: email, $options: "i" },
+  });
   if (!user)
     throw new BadRequestError("Email doesn't exist. Contact a representative");
   if (user.hasVoted) throw new BadRequestError("You have already voted!");
