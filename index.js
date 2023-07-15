@@ -27,7 +27,7 @@ app.use(
   cors({
     origin:
       process.env.CORS_ORIGIN ||
-      "https://students-week-voting-system.netlify.app/",
+      "https://students-week-voting-system.netlify.app",
     credentials: true,
   })
 );
