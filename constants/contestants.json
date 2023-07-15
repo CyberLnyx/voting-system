@@ -1,0 +1,514 @@
+[
+  {
+    "role": "BEST DRESSED FEMALE",
+    "nominees": [
+      {
+        "name": "Favour",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Favour.png?alt=media&token=630cba20-0cf6-4eb7-8dd4-f46e894b4b2e"
+      },
+      {
+        "name": "Khairat",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Khairat.png?alt=media&token=ee1d2ec4-c82b-4f7a-b95c-ef81158dc9d8"
+      },
+      {
+        "name": "Promise",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Promise.png?alt=media&token=a432f7cc-1db1-4861-b988-2f034ca0b0a1"
+      },
+      {
+        "name": "Jumoke",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Jumoke.png?alt=media&token=9a709a4a-9a18-4d27-ac2d-4687043a34c7"
+      },
+      {
+        "name": "Mariam (300L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Mariam%20(300L).png?alt=media&token=5b4f1ed6-9bb5-49f1-bb79-db188b6e30ae"
+      },
+      {
+        "name": "Maryam (100L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Maryam%20(100l).png?alt=media&token=fbf46911-7616-4bca-8f67-fc39538a466d"
+      }
+    ]
+  },
+  {
+    "role": "MOST INFLUENTIAL MALE",
+    "nominees": [
+      {
+        "name": "David",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/David%20Constituted.png?alt=media&token=82a77949-e84e-473f-a0de-e1140e80935c"
+      },
+      {
+        "name": "Pelumi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Pelumi.png?alt=media&token=2dfa36ec-529f-4387-982d-187f28dd66be"
+      },
+      {
+        "name": "Adedolapo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Adedolapo.png?alt=media&token=3517b3ea-8ad4-4e3f-a81e-7ac255fce545"
+      },
+      {
+        "name": "Dr. Tee",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Dr%20Tee.png?alt=media&token=76e47168-47f0-496e-a553-3f18f76cfcdc"
+      },
+      {
+        "name": "David Amao",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/David%20Amao.png?alt=media&token=a686c78c-072d-47a1-9ba1-802e1576853a"
+      },
+      {
+        "name": "Manny",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Manny.png?alt=media&token=7151815e-40aa-4f05-a5d5-87abb2f0ba46"
+      },
+      {
+        "name": "Oyebisi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Oyebisi.png?alt=media&token=37097a33-a881-4c11-a8ec-6562541987a1"
+      }
+    ]
+  },
+  {
+    "role": "BEST DRESSED MALE",
+    "nominees": [
+      {
+        "name": "Meshack",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Meshack.png?alt=media&token=a8575a2c-ebe1-47c0-98e2-3b804e06e9f5"
+      },
+      {
+        "name": "Favour",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Favour%20Boy.png?alt=media&token=f49be4b9-b64e-4d44-963b-6b6111f07664"
+      },
+      {
+        "name": "Deji",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Deji.png?alt=media&token=254daca3-258b-4dda-90c2-65dc0556a3f6"
+      },
+      {
+        "name": "Sterling",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Sterling.png?alt=media&token=29d6b3bc-5fe9-4219-a09b-e86240512c6d"
+      },
+      {
+        "name": "Adedolapo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Adedolapo.png?alt=media&token=3517b3ea-8ad4-4e3f-a81e-7ac255fce545"
+      },
+      {
+        "name": "Seun Atunbi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Seun.png?alt=media&token=bff72206-1c72-437a-934b-fd54276ab5d4"
+      }
+    ]
+  },
+  {
+    "role": "MOST EXPENSIVE MALE",
+    "nominees": [
+      {
+        "name": "Shadow",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Shadow.png?alt=media&token=0825cb5b-9656-4c8c-af4e-f4266f612859"
+      },
+      {
+        "name": "Meshack",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Meshack.png?alt=media&token=a8575a2c-ebe1-47c0-98e2-3b804e06e9f5"
+      },
+      {
+        "name": "Mark chole",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Mark%20Chole.png?alt=media&token=8ca09099-e22f-4462-a3cf-c6887c87d378"
+      },
+      {
+        "name": "Lukman",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Lukman.png?alt=media&token=b9e9d88c-4e3c-46b9-98b8-07c81bc464a7"
+      }
+    ]
+  },
+  {
+    "role": "FASHIONISTA MALE",
+    "nominees": [
+      {
+        "name": "Peejay",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Peejay.png?alt=media&token=8a08bd40-9c22-4d5f-90a3-f6137445e6e4"
+      },
+      {
+        "name": "Manny",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Manny.png?alt=media&token=7151815e-40aa-4f05-a5d5-87abb2f0ba46"
+      },
+      {
+        "name": "Teju",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Teju.png?alt=media&token=b08f6e2c-83d4-4e61-91ea-00560120d7a4"
+      },
+      {
+        "name": "Sam Sam",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Sam%20Sam.png?alt=media&token=f7dbc377-1247-4653-b49d-5b473cc4cc9a"
+      },
+      {
+        "name": "Meshack",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Meshack.png?alt=media&token=a8575a2c-ebe1-47c0-98e2-3b804e06e9f5"
+      }
+    ]
+  },
+  {
+    "role": "STUDENT OF THE YEAR",
+    "nominees": [
+      {
+        "name": "Francis",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Francis.png?alt=media&token=8948c3fa-c0a3-4a50-912e-e92f30e616ed"
+      },
+      {
+        "name": "Adedolapo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Adedolapo.png?alt=media&token=3517b3ea-8ad4-4e3f-a81e-7ac255fce545"
+      },
+      {
+        "name": "Amos",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Amos.png?alt=media&token=1ca8c00d-a34e-4692-9bfa-ccbc47b232d7"
+      },
+      {
+        "name": "Festus",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Festus.png?alt=media&token=d58c50d1-4dce-4a72-9b95-4edf371c2c69"
+      },
+      {
+        "name": "Pelumi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Pelumi.png?alt=media&token=2dfa36ec-529f-4387-982d-187f28dd66be"
+      },
+      {
+        "name": "Malik",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Malik.png?alt=media&token=d5f377ae-801f-4c30-a04c-964fb5278e6a"
+      }
+    ]
+  },
+  {
+    "role": "MOST INFLUENTiAL FEMALE",
+    "nominees": [
+      {
+        "name": "Icey",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Icey.png?alt=media&token=cce89ec3-c40f-4b21-af88-173ec4bb5185"
+      },
+      {
+        "name": "Cykleesha",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Cykleesha.png?alt=media&token=90e147a3-ebb6-4376-acda-89d5c7d95bdd"
+      },
+      {
+        "name": "Waliyat",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Waliyat.png?alt=media&token=ff371731-4db8-4cc5-9bfb-b1d1605eb5dd"
+      },
+      {
+        "name": "Kike",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Kike.png?alt=media&token=85446ec4-719a-4818-95f4-394d80c0977d"
+      }
+    ]
+  },
+  {
+    "role": "MOST POPULAR FEMALE",
+    "nominees": [
+      {
+        "name": "Cykleesha",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Cykleesha.png?alt=media&token=90e147a3-ebb6-4376-acda-89d5c7d95bdd"
+      },
+      {
+        "name": "Waliyat",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Waliyat.png?alt=media&token=ff371731-4db8-4cc5-9bfb-b1d1605eb5dd"
+      },
+      {
+        "name": "Maryam (100L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Maryam%20(100l).png?alt=media&token=fbf46911-7616-4bca-8f67-fc39538a466d"
+      },
+      {
+        "name": "Daniella",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Daniella.png?alt=media&token=237f4e3c-ff50-4881-be4c-dd7cccf2f165"
+      },
+      {
+        "name": "Joyjolaa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Joyjoola.png?alt=media&token=f6f3b1ed-6015-4461-96dd-f842f74258da"
+      }
+    ]
+  },
+  {
+    "role": "MOST POPULAR MALE",
+    "nominees": [
+      {
+        "name": "Migos",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Migos.png?alt=media&token=6b105f5f-5ea2-4b72-9c9c-ad97b6a621b7"
+      },
+      {
+        "name": "Daddy yo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Pelumi.png?alt=media&token=2dfa36ec-529f-4387-982d-187f28dd66be"
+      },
+      {
+        "name": "Deyhvid",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/David%20Constituted.png?alt=media&token=82a77949-e84e-473f-a0de-e1140e80935c"
+      },
+      {
+        "name": "Spycher",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Spycher.png?alt=media&token=a9b1559c-1c1a-4495-b521-cd5447bf7131"
+      },
+      {
+        "name": "Adedolapo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Adedolapo.png?alt=media&token=3517b3ea-8ad4-4e3f-a81e-7ac255fce545"
+      },
+      {
+        "name": "Olowookere",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Olowookere.png?alt=media&token=65073cf0-5cb0-4831-8e13-96e4fff08006"
+      },
+      {
+        "name": "Dr. Tee",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Dr%20Tee.png?alt=media&token=76e47168-47f0-496e-a553-3f18f76cfcdc"
+      }
+    ]
+  },
+  {
+    "role": "FASHIONISTA FEMALE",
+    "nominees": [
+      {
+        "name": "Jumoke",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Jumoke.png?alt=media&token=9a709a4a-9a18-4d27-ac2d-4687043a34c7"
+      },
+      {
+        "name": "Khairat",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Khairat.png?alt=media&token=ee1d2ec4-c82b-4f7a-b95c-ef81158dc9d8"
+      },
+      {
+        "name": "Mayowa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Mayowa.png?alt=media&token=bbea9b42-19ab-446f-8935-b5b110211c05"
+      },
+      {
+        "name": "Icey",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Icey.png?alt=media&token=cce89ec3-c40f-4b21-af88-173ec4bb5185"
+      },
+      {
+        "name": "Lola",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Lola.png?alt=media&token=5c5da1b8-058b-479d-baf9-88fffb1dcff4"
+      },
+      {
+        "name": "Orezi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Orezi.png?alt=media&token=6a186957-199b-4fc8-80a2-fbb9bd74d34c"
+      }
+    ]
+  },
+  {
+    "role": "MOST EXPENSIVE FEMALE",
+    "nominees": [
+      {
+        "name": "Lola",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Lola.png?alt=media&token=5c5da1b8-058b-479d-baf9-88fffb1dcff4"
+      },
+      {
+        "name": "Kike",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Kike.png?alt=media&token=85446ec4-719a-4818-95f4-394d80c0977d"
+      },
+      {
+        "name": "Anjola",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Anjola.png?alt=media&token=b8f4ef37-01ad-419f-86eb-cf1bfe28c69c"
+      }
+    ]
+  },
+  {
+    "role": "ENTERPRENEUR OF THE YEAR",
+    "nominees": [
+      {
+        "name": "Olowookere",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Olowookere.png?alt=media&token=65073cf0-5cb0-4831-8e13-96e4fff08006"
+      },
+      {
+        "name": "Emeritus",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Emeritus.png?alt=media&token=70539cf1-abcf-4da3-835f-3ce3517b5671"
+      },
+      {
+        "name": "Habeebah",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Habeebah.png?alt=media&token=013e048c-8fcd-47ba-b320-4db844dcbe1a"
+      },
+      {
+        "name": "Amos",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Amos.png?alt=media&token=1ca8c00d-a34e-4692-9bfa-ccbc47b232d7"
+      },
+      {
+        "name": "Ayo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Ayo.png?alt=media&token=f9b3b661-dc95-41b9-bc7f-661bce648379"
+      },
+      {
+        "name": "Dr. Tee",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Dr%20Tee.png?alt=media&token=76e47168-47f0-496e-a553-3f18f76cfcdc"
+      },
+      {
+        "name": "Joyjolaa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Joyjoola.png?alt=media&token=f6f3b1ed-6015-4461-96dd-f842f74258da"
+      },
+      {
+        "name": "Madores",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Madores.png?alt=media&token=bcd58091-4b22-414a-8f0a-a55ed291c6bf"
+      }
+    ]
+  },
+  {
+    "role": "FRESHER OF THE YEAR",
+    "nominees": [
+      {
+        "name": "Maryam",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Maryam%20(100l).png?alt=media&token=fbf46911-7616-4bca-8f67-fc39538a466d"
+      },
+      {
+        "name": "Tife",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Tife.png?alt=media&token=59220dfa-3fb3-4dc6-9a33-ceef77af6ce1"
+      },
+      {
+        "name": "Victor",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Victor.png?alt=media&token=a734f58e-95a4-492d-8b1b-a69c003284e6"
+      },
+      {
+        "name": "Akinola",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Akinola.png?alt=media&token=ae444363-6c63-4ae8-ad3d-eafd94fd9ac9"
+      },
+      {
+        "name": "Subomi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Subomi.png?alt=media&token=be9e9f5e-ea61-4917-8bcb-8b093b7ee8d7"
+      },
+      {
+        "name": "Albert",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Albert.png?alt=media&token=b61860fd-d45a-45d1-9e19-50dbe9f1c6b6"
+      }
+    ]
+  },
+  {
+    "role": "TECH PRO OF THE YEAR",
+    "nominees": [
+      {
+        "name": "PhilipTheDeveloper",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Philip.png?alt=media&token=0e76ea97-f805-49d0-9dd1-ad1df9a23f50"
+      },
+      {
+        "name": "Peejay",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Peejay.png?alt=media&token=8a08bd40-9c22-4d5f-90a3-f6137445e6e4"
+      },
+      {
+        "name": "Francis",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Francis.png?alt=media&token=8948c3fa-c0a3-4a50-912e-e92f30e616ed"
+      },
+      {
+        "name": "Silent Coder",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Silent%20Coder.png?alt=media&token=38d6623a-807e-439d-b199-6164c320f48a"
+      },
+      {
+        "name": "Cisco",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Cisco.png?alt=media&token=0d364a4f-5328-446e-9755-c8ed5be1bfb1"
+      },
+      {
+        "name": "Sokediz",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Sokediz.png?alt=media&token=1a259081-c8c9-4f8e-bdff-53368988eae7"
+      }
+    ]
+  },
+  {
+    "role": "CREATIVE OF THE YEAR",
+    "nominees": [
+      {
+        "name": "Azeezat",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Azeezat.png?alt=media&token=597aa2a4-9d6b-4504-84ea-9261a0d49e98"
+      },
+      {
+        "name": "Smith",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Smith.png?alt=media&token=91cb62db-1f2a-45b1-abff-d47fa2a10192"
+      },
+      {
+        "name": "Omaz",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Omaz.png?alt=media&token=daad314e-f88a-419d-9462-833836069e70"
+      }
+    ]
+  },
+  {
+    "role": "MEDIA BRAND OF THE YEAR",
+    "nominees": [
+      {
+        "name": "Tech-U Plug",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Tech-U%20Plug.png?alt=media&token=180e16c5-cf50-4c54-a14b-08a45fbf0800"
+      },
+      {
+        "name": "Tech-U TV",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Tech-U%20TV.png?alt=media&token=bbce13ed-ba97-45d2-8f7e-780617685a4d"
+      },
+      {
+        "name": "Counter Culture",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Counter%20Culture.png?alt=media&token=ac9a77c3-b935-4007-8230-e9abea8e0f70"
+      },
+      {
+        "name": "The Sting",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/The%20Sting.png?alt=media&token=116016bb-6f0b-43d8-b669-4c014df8179c"
+      }
+    ]
+  },
+  {
+    "role": "MOST SOPHISTICATED MALE",
+    "nominees": [
+      {
+        "name": "Rasaq (500L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Razaq.png?alt=media&token=cac6c06e-6d13-47cf-848c-1e7f93a372db"
+      },
+      {
+        "name": "Richard (500L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Richard%20(500L).png?alt=media&token=f7b8c01a-a0c8-4222-99bb-ce8f8c1a63b8"
+      },
+      {
+        "name": "Brymo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Brymo.png?alt=media&token=5095b87c-5e9f-45a7-a1c5-559275154769"
+      },
+      {
+        "name": "Quwiy (200L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Quwiy.png?alt=media&token=328c3eaf-bad1-4add-8aaa-1b76023432f8"
+      },
+      {
+        "name": "Bizzle",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Bizzle.png?alt=media&token=3fdfd8a4-bb9e-4070-8e90-681fc99a40f5"
+      },
+      {
+        "name": "Mark chole",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Mark%20Chole.png?alt=media&token=8ca09099-e22f-4462-a3cf-c6887c87d378"
+      }
+    ]
+  },
+  {
+    "role": "MOST SOPHISTICATED FEMALE",
+    "nominees": [
+      {
+        "name": "Jumoke (500L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Jumoke.png?alt=media&token=9a709a4a-9a18-4d27-ac2d-4687043a34c7"
+      },
+      {
+        "name": "Kike (300L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Kike.png?alt=media&token=85446ec4-719a-4818-95f4-394d80c0977d"
+      },
+      {
+        "name": "Anjola",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Anjola.png?alt=media&token=b8f4ef37-01ad-419f-86eb-cf1bfe28c69c"
+      }
+    ]
+  },
+  {
+    "role": "BRAND OF THE YEAR",
+    "nominees": [
+      {
+        "name": "Anjystles",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/AnjyStyles.png?alt=media&token=99098ca5-5331-4999-8a04-eefbf9e2689b"
+      },
+      {
+        "name": "Royal Apparel",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Royal%20Apparel.png?alt=media&token=3a1a55a7-f804-4263-8b7b-9d38c664eb36"
+      },
+      {
+        "name": "Addyjum Clothing",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Addyjum%20Clothing.png?alt=media&token=0ca26f99-d504-43e7-888b-102e465b9364"
+      },
+      {
+        "name": "Omaz Collection",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Omaz%20Collection.png?alt=media&token=14bb2849-c208-4426-ba60-dd9b13d67a73"
+      }
+    ]
+  },
+  {
+    "role": "ASSOCIATION OF THE YEAR",
+    "nominees": [
+      {
+        "name": "GDSC Tech-U",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Association.png?alt=media&token=0e2cdf88-87fb-476a-aa22-8e699a841167"
+      },
+      {
+        "name": "FIBSA",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Association.png?alt=media&token=0e2cdf88-87fb-476a-aa22-8e699a841167"
+      },
+      {
+        "name": "Student Energy",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Association.png?alt=media&token=0e2cdf88-87fb-476a-aa22-8e699a841167"
+      },
+      {
+        "name": "Sarvy Valley",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/Association.png?alt=media&token=0e2cdf88-87fb-476a-aa22-8e699a841167"
+      }
+    ]
+  }
+]
