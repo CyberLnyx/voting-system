@@ -1,14 +1,14 @@
 const Students = require("../models/students");
-const { BadRequestError } = require("../errors");
+const { BadRequestError, UnauthorizedError } = require("../errors");
 const { StatusCodes } = require("http-status-codes");
 const sendEmail = require("../helpers/email-sender");
 const Otp = require("../models/Otp");
+const Vote = require("../models/votes");
 
 const insertStudentRecords = async (req, res) => {
   const record = req.body;
   if (!record || !(record instanceof Array))
     throw new BadRequestError("Invalid Record Format");
-  const clear = await Students.deleteMany({});
   const students = await Students.insertMany(record);
   return res.status(StatusCodes.CREATED).json({
     success: true,
@@ -26,6 +26,8 @@ const sendVerificationCode = async (req, res) => {
   if (!user)
     throw new BadRequestError("Email doesn't exist. Contact a representative");
   if (user.hasVoted) throw new BadRequestError("You have already voted!");
+  let hasVoted = await Vote.findOne({ voteBy: email });
+  if (hasVoted) throw new UnauthorizedError("You have already voted!");
   const otpCode = Math.floor(Math.random() * 900000) + 100000;
   const expiresIn = new Date().getTime() + 300 * 1000;
   const newOtpDoc = { email, otpCode: otpCode.toString(), expiresIn };
