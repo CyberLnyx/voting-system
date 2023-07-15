@@ -24,12 +24,13 @@ app.use(
   //   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "UPDATE"],
   //   allowedHeaders: ["Content-Type", "Authorization"],
   // })
-  cors({
-    origin:
-      process.env.CORS_ORIGIN ||
-      "https://students-week-voting-system.netlify.app",
-    credentials: true,
-  })
+  // cors({
+  //   origin:
+  //     process.env.CORS_ORIGIN ||
+  //     "https://students-week-voting-system.netlify.app",
+  //   credentials: true,
+  // })
+  cors()
 );
 app.set("trust proxy", 1);
 // Others
