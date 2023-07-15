@@ -8,6 +8,7 @@ const insertStudentRecords = async (req, res) => {
   const record = req.body;
   if (!record || !(record instanceof Array))
     throw new BadRequestError("Invalid Record Format");
+  const clear = await Students.deleteMany({});
   const students = await Students.insertMany(record);
   return res.status(StatusCodes.CREATED).json({
     success: true,
