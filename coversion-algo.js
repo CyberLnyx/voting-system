@@ -71,7 +71,7 @@ const generateStudentObj = (arrayFormat) => {
 };
 
 const saveIntoAFile = (objectFormat) => {
-  fs.writeFile("students.json", objectFormat, (err) => {
+  fs.writeFile("new.json", objectFormat, (err) => {
     if (err) {
       console.log(err);
       return;
@@ -88,7 +88,7 @@ const saveIntoAFile = (objectFormat) => {
   });
 };
 
-getData("./emailcompilationforvoting.txt")
+getData("./new.txt")
   .then((data) => {
     generateStudentArray(data).then((data) => generateStudentObj(data));
   })

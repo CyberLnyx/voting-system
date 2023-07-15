@@ -26,4 +26,10 @@ const submitVote = async (req, res) => {
     .json({ success: true, msg: "Vote Submitted Successfully!✅✅" });
 };
 
-module.exports = { getContestant, submitVote };
+const getResult = async (req, res) => {
+  const data = req.body;
+  const matches = await Vote.find(data);
+  return res.status(200).json({ data, nbHits: matches.length });
+};
+
+module.exports = { getContestant, submitVote, getResult };
