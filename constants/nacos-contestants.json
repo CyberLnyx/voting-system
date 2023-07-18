@@ -2,79 +2,187 @@
   {
     "role": "Most influential",
     "nominees": [
-      { "name": "Sokebiz", "imgUrl": "" },
-      { "name": "Salam", "imgUrl": "" },
-      { "name": "Zephyr", "imgUrl": "" },
-      { "name": "Mayowa", "imgUrl": "" }
+      {
+        "name": "Sokebiz",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSokeBiz.png?alt=media&token=b4551182-87a2-4b93-801f-553326301d22"
+      },
+      {
+        "name": "Salam",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSalam.png?alt=media&token=bfdb7d9d-6241-4440-8f04-2844a0d69190"
+      },
+      {
+        "name": "Zephyr",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FZephyr.png?alt=media&token=d345f52e-1740-4463-99ba-78439553c685"
+      },
+      {
+        "name": "Mayowa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMayowa.png?alt=media&token=7a19a191-6902-43b4-8dc4-683664a7e07d"
+      }
     ]
   },
   {
     "role": "Most outstanding",
     "nominees": [
-      { "name": "WizCode", "imgUrl": "" },
-      { "name": "Sokebiz", "imgUrl": "" },
-      { "name": "Ope Yemi", "imgUrl": "" },
-      { "name": "Micheal", "imgUrl": "" },
-      { "name": "Alfa Sulaiman", "imgUrl": "" },
-      { "name": "Mayowa", "imgUrl": "" }
+      {
+        "name": "WizCode",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FWizcode.png?alt=media&token=990f7968-97d3-4e88-924f-39a4ef53acd2"
+      },
+      {
+        "name": "Sokebiz",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSokeBiz.png?alt=media&token=b4551182-87a2-4b93-801f-553326301d22"
+      },
+      {
+        "name": "Opeyemi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FOpeyemi.png?alt=media&token=34546c75-381a-4608-b140-d522c978114a"
+      },
+      {
+        "name": "Micheal",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMichael.png?alt=media&token=35f93afe-64b2-4aa9-a8dc-d566e41e4e65"
+      },
+      {
+        "name": "Alfa Sulaiman",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSulaiman.png?alt=media&token=3daac947-07f8-4bbc-8fbf-cda79e3151a0"
+      },
+      {
+        "name": "Mayowa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMayowa.png?alt=media&token=7a19a191-6902-43b4-8dc4-683664a7e07d"
+      }
     ]
   },
   {
     "role": "Tech pro",
     "nominees": [
-      { "name": "Salam", "imgUrl": "" },
-      { "name": "Silent coder", "imgUrl": "" },
-      { "name": "Sokebiz", "imgUrl": "" },
-      { "name": "WizCode", "imgUrl": "" }
+      {
+        "name": "Salam",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSalam.png?alt=media&token=bfdb7d9d-6241-4440-8f04-2844a0d69190"
+      },
+      {
+        "name": "Silent coder",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSilentCoder.png?alt=media&token=cab438c4-5b08-4f3d-bf0e-bcee06b45601"
+      },
+      {
+        "name": "Sokebiz",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSokeBiz.png?alt=media&token=b4551182-87a2-4b93-801f-553326301d22"
+      },
+      {
+        "name": "WizCode",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FWizcode.png?alt=media&token=990f7968-97d3-4e88-924f-39a4ef53acd2"
+      }
     ]
   },
   {
     "role": "Entrepreneur",
     "nominees": [
-      { "name": "Joy jolaa", "imgUrl": "" },
-      { "name": "Emjay gadgets", "imgUrl": "" },
-      { "name": "Janet scents", "imgUrl": "" },
-      { "name": "Shewa", "imgUrl": "" }
+      {
+        "name": "Joyjolaa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FJoyjoola.png?alt=media&token=1ffd20e6-8700-4d0e-8693-43b41e58c566"
+      },
+      {
+        "name": "Emjay gadgets",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FEmjayG.png?alt=media&token=55e5b81f-696b-44d6-b548-ae1ca478f68c"
+      },
+      {
+        "name": "Janet scents",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FJanet.png?alt=media&token=0af45036-4a24-4b50-bae4-ac69b31cf18e"
+      },
+      {
+        "name": "Shewa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSewa.png?alt=media&token=5f67af0d-3fea-4a16-9393-601180344c89"
+      }
     ]
   },
   {
     "role": "Best dressed female",
     "nominees": [
-      { "name": "Maryam 100 L", "imgUrl": "" },
-      { "name": "Aliyah", "imgUrl": "" },
-      { "name": "Fathia", "imgUrl": "" },
-      { "name": "Peace", "imgUrl": "" },
-      { "name": "Janet", "imgUrl": "" }
+      {
+        "name": "Maryam (100L)",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMaryam.png?alt=media&token=22b19fd0-1589-48d9-8ba8-f99b67ec2e36"
+      },
+      {
+        "name": "Aliyah",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FAliyah.png?alt=media&token=c485e6bc-5c83-46e3-a58d-7aa9f9e62282"
+      },
+      {
+        "name": "Fathia",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FFathia.png?alt=media&token=fd020c8d-e7f9-41b1-8976-841a798c4add"
+      },
+      {
+        "name": "Peace",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FPeace.png?alt=media&token=fd535ce4-9181-4fa0-a5c9-9ef38d1b5c3e"
+      },
+      {
+        "name": "Janet",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FJanet.png?alt=media&token=0af45036-4a24-4b50-bae4-ac69b31cf18e"
+      }
     ]
   },
   {
     "role": "Best dressed male",
     "nominees": [
-      { "name": "Micheal", "imgUrl": "" },
-      { "name": "Ridwan Super", "imgUrl": "" },
-      { "name": "Brymo", "imgUrl": "" },
+      {
+        "name": "Micheal",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMichael.png?alt=media&token=35f93afe-64b2-4aa9-a8dc-d566e41e4e65"
+      },
+      {
+        "name": "Ridwan",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FRidwan.png?alt=media&token=1fc91ec3-df76-4b31-b754-8678138d20e9"
+      },
+      {
+        "name": "Brymo",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FBrymo.png?alt=media&token=871f3659-5c4d-4a3a-86f3-83526cb71fd5"
+      },
       { "name": "Tolex", "imgUrl": "" },
-      { "name": "Ahmed", "imgUrl": "" }
+      {
+        "name": "Ahmed",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FAhmed.png?alt=media&token=be086c16-9615-47d1-9019-70674c4613c6"
+      }
     ]
   },
   {
     "role": "Fashionista",
     "nominees": [
-      { "name": "Orezi", "imgUrl": "" },
-      { "name": "Samsam", "imgUrl": "" },
-      { "name": "Shukuu", "imgUrl": "" },
-      { "name": "Plug", "imgUrl": "" },
+      {
+        "name": "Orezi",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FOrezi.png?alt=media&token=21b6ff64-5a79-4d7d-b225-a7c3757ad4aa"
+      },
+      {
+        "name": "SamSam",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSamSam.png?alt=media&token=8ba4ac7a-8e68-4302-97df-3d3cf9cd4874"
+      },
+      {
+        "name": "Shukuu",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FShukuu.png?alt=media&token=6e4670e8-5ac9-43af-a67b-47f0794943b7"
+      },
+      {
+        "name": "Plug",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FPlug.png?alt=media&token=1ef2e49d-e963-4e16-81ab-b8720eaddd9c"
+      },
       { "name": "Noble", "imgUrl": "" },
-      { "name": "Mayowa", "imgUrl": "" }
+      {
+        "name": "Mayowa",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMayowa.png?alt=media&token=7a19a191-6902-43b4-8dc4-683664a7e07d"
+      }
     ]
   },
   {
     "role": "Sportsman",
     "nominees": [
-      { "name": "Rapheal", "imgUrl": "" },
-      { "name": "Adeleye", "imgUrl": "" },
-      { "name": "Gafar", "imgUrl": "" },
-      { "name": "Emjay", "imgUrl": "" }
+      {
+        "name": "Rapheal",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FRaphael.png?alt=media&token=26f34d57-d8d1-4fde-896f-793ae24d8b2c"
+      },
+      {
+        "name": "Adeleye",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FAdeleye.png?alt=media&token=65669160-d542-4f2d-8382-f033f74de778"
+      },
+      {
+        "name": "Gafar",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FGafar.png?alt=media&token=52227594-8083-4fca-9503-5b0aec5103a9"
+      },
+      {
+        "name": "Emjay",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FEmjay.png?alt=media&token=0e136ff9-df43-472c-9ac6-6eba6b22b08f"
+      }
     ]
   }
 ]
