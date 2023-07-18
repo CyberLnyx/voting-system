@@ -131,7 +131,10 @@
         "name": "Brymo",
         "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FBrymo.png?alt=media&token=871f3659-5c4d-4a3a-86f3-83526cb71fd5"
       },
-      { "name": "Tolex", "imgUrl": "" },
+      {
+        "name": "Tolex",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FTolex.png?alt=media&token=ba62e718-64b6-4ed8-9992-b87861384327"
+      },
       {
         "name": "Ahmed",
         "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FAhmed.png?alt=media&token=be086c16-9615-47d1-9019-70674c4613c6"
@@ -150,14 +153,17 @@
         "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FSamSam.png?alt=media&token=8ba4ac7a-8e68-4302-97df-3d3cf9cd4874"
       },
       {
-        "name": "Shukuu",
+        "name": "Shukurah",
         "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FShukuu.png?alt=media&token=6e4670e8-5ac9-43af-a67b-47f0794943b7"
       },
       {
         "name": "Plug",
         "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FPlug.png?alt=media&token=1ef2e49d-e963-4e16-81ab-b8720eaddd9c"
       },
-      { "name": "Noble", "imgUrl": "" },
+      {
+        "name": "Noble",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FNoble.png?alt=media&token=18d7dc6c-9598-4b78-9a4e-475c7968fc09"
+      },
       {
         "name": "Mayowa",
         "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nacos-contestants%2FMayowa.png?alt=media&token=7a19a191-6902-43b4-8dc4-683664a7e07d"

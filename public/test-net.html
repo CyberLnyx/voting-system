@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/img/techu_logo.png" />
+    <title>NACOS VOTING TESTNET</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="info-modal">
+      <h2 id="must-read">Must Read</h2>
+      <p id="quick-note">
+        After you've entered the email you submitted for your representatives,
+        click <b>Verify Email</b> to proceed.
+        <br />
+        <br />
+        The following are the possible scenario you might encounter: <br />
+        <br />
+        <b>1. Email does not exist.</b><br />
+        <b>2. Verification code sent to your email </b><br /><br />
+
+        If you get <b>Email does not exist.</b> Immediately contact your
+        representative and submit your email to them. <br /><br />
+        If you get <b>Verification code sent to your email.</b> Check your email
+        to confirm if you get the Verification code. <br />
+        If you get the Verification code, then, no further action is required
+        from you. <b>However,</b> If you didn't get the verification code,
+        Immediately contact your representative, submit your email and add the
+        text <b>I didn't get the verification code.</b>
+      </p>
+      <button id="proceed">Proceed</button>
+    </div>
+    <div class="homepage-container">
+      <img src="/img/techu_logo.png" alt="" id="logo" />
+      <h1 id="heading">NACOS Email Validation System</h1>
+
+      <form
+        action="/api/v1/auth/pre-election-email-validation"
+        id="email-validation-form"
+      >
+        <div class="form-group">
+          <label for="email">Enter your email</label
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+            required
+          />
+        </div>
+        <button type="submit">Verify Email</button>
+      </form>
+    </div>
+    <div class="request-loading status">
+      <img src="/img/spinner.gif" alt="" id="loading-icon" />
+      <p id="loading-text">Verifying your email...</p>
+    </div>
+
+    <div class="request-done status">
+      <i class="fi fi-sr-exclamation"></i>
+      <i class="fi fi-sr-cloud-check"></i>
+      <p id="response-text"></p>
+    </div>
+  </body>
+</html>

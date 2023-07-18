@@ -7,6 +7,7 @@ const { notFound, methodChecker, errorHandler } = require("./middlewares");
 const authRouter = require("./routes/auth");
 const votingRouter = require("./routes/voting");
 const cors = require("cors");
+const path = require("path");
 
 const PORT = process.env.PORT || 8081;
 
@@ -51,6 +52,9 @@ app.use(express.json()); // parse json data in request
 
 //   next();
 // });
+
+// Setting static files
+app.use(express.static(path.resolve(__dirname, "public")));
 
 // Routing middlewares
 app.use("/api/v1/auth", authRouter);
