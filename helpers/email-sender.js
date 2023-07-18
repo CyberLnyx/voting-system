@@ -14,7 +14,7 @@ const sendEmail = async ({ otpCode, email }) => {
   let mailOptions = {
     from: process.env.EMAIL,
     to: email,
-    subject: "Tech-u student week voting",
+    subject: "NACOS voting",
     text: "An attempt to access the NACOS voting system with this email was made.",
     html: `<div style="background-color: rgba(255, 255, 255, 0.9); width: 100%; height: auto; display: flex; justify-content: center; align-items: center;  padding: 15px; box-sizing: border-box;">
         <div style="background-color: transparent;  margin: auto; padding: 32px; box-sizing: border-box;">
