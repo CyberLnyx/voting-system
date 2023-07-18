@@ -18,6 +18,23 @@ const getData = (path) => {
 
 const generateStudentArray = (data) => {
   return new Promise((resolve) => {
+    // let categories = data.split("- b -");
+    // let contestants = categories.map((category) => {
+    //   let data = category.split("- a -");
+    //   let role = data[0].trim();
+    //   let nominees = data[1]
+    //     .split("- [ ] ")
+    //     .filter((item) => Boolean(item.trim()) && item.trim())
+    //     .map((nominee) => {
+    //       let name = nominee.trim();
+    //       return { name, imgUrl: "" };
+    //     });
+    //   return {
+    //     role,
+    //     nominees,
+    //   };
+    // });
+    // resolve(contestants);
     let arrayFormat = data.split("\r\n");
     let filtered = [];
     arrayFormat.forEach((item) => {
@@ -67,11 +84,12 @@ const generateStudentObj = (arrayFormat) => {
       hasVoted: false,
     };
   });
+  // let objectFormat = arrayFormat;
   saveIntoAFile(JSON.stringify(objectFormat));
 };
 
 const saveIntoAFile = (objectFormat) => {
-  fs.writeFile("new.json", objectFormat, (err) => {
+  fs.writeFile("./nacos-student-list.json", objectFormat, (err) => {
     if (err) {
       console.log(err);
       return;
@@ -88,7 +106,7 @@ const saveIntoAFile = (objectFormat) => {
   });
 };
 
-getData("./new.txt")
+getData("./nacos-student-list.txt")
   .then((data) => {
     generateStudentArray(data).then((data) => generateStudentObj(data));
   })

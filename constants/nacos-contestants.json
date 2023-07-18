@@ -1,0 +1,80 @@
+[
+  {
+    "role": "Most influential",
+    "nominees": [
+      { "name": "Sokebiz", "imgUrl": "" },
+      { "name": "Salam", "imgUrl": "" },
+      { "name": "Zephyr", "imgUrl": "" },
+      { "name": "Mayowa", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Most outstanding",
+    "nominees": [
+      { "name": "WizCode", "imgUrl": "" },
+      { "name": "Sokebiz", "imgUrl": "" },
+      { "name": "Ope Yemi", "imgUrl": "" },
+      { "name": "Micheal", "imgUrl": "" },
+      { "name": "Alfa Sulaiman", "imgUrl": "" },
+      { "name": "Mayowa", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Tech pro",
+    "nominees": [
+      { "name": "Salam", "imgUrl": "" },
+      { "name": "Silent coder", "imgUrl": "" },
+      { "name": "Sokebiz", "imgUrl": "" },
+      { "name": "WizCode", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Entrepreneur",
+    "nominees": [
+      { "name": "Joy jolaa", "imgUrl": "" },
+      { "name": "Emjay gadgets", "imgUrl": "" },
+      { "name": "Janet scents", "imgUrl": "" },
+      { "name": "Shewa", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Best dressed female",
+    "nominees": [
+      { "name": "Maryam 100 L", "imgUrl": "" },
+      { "name": "Aliyah", "imgUrl": "" },
+      { "name": "Fathia", "imgUrl": "" },
+      { "name": "Peace", "imgUrl": "" },
+      { "name": "Janet", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Best dressed male",
+    "nominees": [
+      { "name": "Micheal", "imgUrl": "" },
+      { "name": "Ridwan Super", "imgUrl": "" },
+      { "name": "Brymo", "imgUrl": "" },
+      { "name": "Tolex", "imgUrl": "" },
+      { "name": "Ahmed", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Fashionista",
+    "nominees": [
+      { "name": "Orezi", "imgUrl": "" },
+      { "name": "Samsam", "imgUrl": "" },
+      { "name": "Shukuu", "imgUrl": "" },
+      { "name": "Plug", "imgUrl": "" },
+      { "name": "Noble", "imgUrl": "" },
+      { "name": "Mayowa", "imgUrl": "" }
+    ]
+  },
+  {
+    "role": "Sportsman",
+    "nominees": [
+      { "name": "Rapheal", "imgUrl": "" },
+      { "name": "Adeleye", "imgUrl": "" },
+      { "name": "Gafar", "imgUrl": "" },
+      { "name": "Emjay", "imgUrl": "" }
+    ]
+  }
+]

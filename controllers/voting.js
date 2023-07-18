@@ -1,5 +1,5 @@
 const { StatusCodes } = require("http-status-codes");
-const contestants = require("../constants/contestants.json");
+const contestants = require("../constants/nacos-contestants.json");
 const { BadRequestError, UnauthorizedError } = require("../errors");
 const Students = require("../models/students");
 const Vote = require("../models/votes");
