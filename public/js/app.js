@@ -10,7 +10,7 @@ const loadingDone = document.querySelector(".request-done");
 function closeInfoModal(e) {
   e.preventDefault();
   infoModal.style.display = "none";
-  homepage_container.style.display = "block";
+  homepage_container.style.display = "flex";
 }
 
 // FORM VALIDATION
