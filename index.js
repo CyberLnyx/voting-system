@@ -54,7 +54,7 @@ app.use(express.json()); // parse json data in request
 // });
 
 // Setting static files
-app.use(express.static(path.resolve(__dirname, "public")));
+// app.use(express.static(path.resolve(__dirname, "public")));
 
 // Routing middlewares
 app.use("/api/v1/auth", authRouter);
