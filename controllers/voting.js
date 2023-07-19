@@ -32,4 +32,9 @@ const getResult = async (req, res) => {
   return res.status(200).json({ data, nbHits: matches.length });
 };
 
-module.exports = { getContestant, submitVote, getResult };
+const allResult = async (req, res) => {
+  let data = await Vote.find({});
+  return res.status(200).json({ success: true, data: data, contestants });
+};
+
+module.exports = { getContestant, submitVote, getResult, allResult };
