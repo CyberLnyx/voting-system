@@ -30,7 +30,11 @@ const rowTemplate = (name, votes) => `
 
 const fetchResult = async () => {
   try {
-    let response = await fetch("/api/v1/resources/results");
+    let response = await fetch("/api/v1/resources/results", {
+      headers: {
+        authorization: `Bearer K'}VW"?1T5Ywr@X'$+UjI.hq7*k4d`,
+      },
+    });
     let jsonResponse = await response.json();
     if (jsonResponse?.success) {
       let data = jsonResponse?.data;
