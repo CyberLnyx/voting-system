@@ -45,7 +45,7 @@ const generateStudentArray = (data) => {
         carriageSplit.push(item);
       }
     });
-    console.log(carriageSplit);
+    // console.log(carriageSplit);
     let filtered = [];
     carriageSplit.forEach((item) => {
       if (Boolean(item.trim())) {
