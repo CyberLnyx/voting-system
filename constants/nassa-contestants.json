@@ -1,0 +1,90 @@
+[
+  {
+    "role": "President",
+    "nominees": [
+      {
+        "name": "Adedibu Jamaldeen Ayoade",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FJamaldeen.png?alt=media&token=099ab50a-668c-41be-a092-184ca991e588"
+      },
+      {
+        "name": "Odedele Elijah Timileyin",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FElijah.png?alt=media&token=c71167df-e84b-4349-a003-daee831e2080"
+      }
+    ]
+  },
+  {
+    "role": "Vice President",
+    "nominees": [
+      {
+        "name": "Bamidele Omotolani Esther",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FEsther.png?alt=media&token=a5f8e1a0-5681-4295-afc8-732406d7c38b"
+      },
+      {
+        "name": "Adefabi Abdul-Gafar",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FAbdul-Gafar.png?alt=media&token=2f54dbe8-6603-4e66-8869-60100e4c56bc"
+      },
+      {
+        "name": "Olaniyan Jamiu Olamide",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FJamiu.png?alt=media&token=7d064cf3-bd0e-4712-9da6-b17a0d766bd1"
+      }
+    ]
+  },
+  {
+    "role": "General Secretary",
+    "nominees": [
+      {
+        "name": "Ayoola Peter Adewale",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FPeter.png?alt=media&token=c65bb4bc-bd02-4398-a3f6-6f997bebc40b"
+      },
+      {
+        "name": "Salam Waris Abioye",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FWaris.png?alt=media&token=f78aa819-8fd7-47ad-a68e-08ab1952162b"
+      }
+    ]
+  },
+  {
+    "role": "Financial Secretary",
+    "nominees": [
+      {
+        "name": "Oyelabi Lydia Adeolu",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FLydia.png?alt=media&token=6d0bbfdd-20df-4ec2-815c-a62a0e53776b"
+      }
+    ]
+  },
+  {
+    "role": "Social Director",
+    "nominees": [
+      {
+        "name": "Moshood Adepoju",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FMoshood.png?alt=media&token=8a1fabdc-f63e-4001-94ca-3602a8e577f8"
+      }
+    ]
+  },
+  {
+    "role": "Treasurer",
+    "nominees": [
+      {
+        "name": "Adebayo Oluwatosin Victoria",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FVictoria.png?alt=media&token=83ebb318-f14f-42be-821b-ea2bce0680cd"
+      }
+    ]
+  },
+  {
+    "role": "Welfare Director",
+    "nominees": [
+      {
+        "name": "Ibrahim Kerimot",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FKerimot.png?alt=media&token=905ee609-c1b1-4946-bbab-e9ba8ad1c455"
+      }
+    ]
+  },
+  {
+    "role": "PRO II",
+    "nominees": [
+      {
+        "name": "Tijani Arifdeen Bolaji",
+        "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/nassa-contestants%2FArifdeen.png?alt=media&token=bfbba7c2-a706-4304-9687-0f9ab1cedf25"
+      }
+    ]
+  }
+]
