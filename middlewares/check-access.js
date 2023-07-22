@@ -1,8 +1,6 @@
 const { UnauthorizedError } = require("../errors");
 
 const checkAccess = (req, res, next) => {
-  console.log(req.body);
-  console.log(req.headers);
   const authHeader = req.headers.authorization;
   if (!authHeader || !authHeader.startsWith("Bearer "))
     throw new UnauthorizedError("Must provide admin access token");
