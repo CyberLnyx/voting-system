@@ -35,13 +35,27 @@ const generateStudentArray = (data) => {
     //   };
     // });
     // resolve(contestants);
-    let arrayFormat = data.split("\r\n");
+    let commaSplit = data.split(",");
+    let carriageSplit = [];
+    commaSplit.forEach((item, i) => {
+      let spliting = item.split("\r\n");
+      if (spliting.length > 1) {
+        carriageSplit = [...carriageSplit, ...spliting];
+      } else {
+        carriageSplit.push(item);
+      }
+    });
+    console.log(carriageSplit);
     let filtered = [];
-    arrayFormat.forEach((item) => {
+    carriageSplit.forEach((item) => {
       if (Boolean(item.trim())) {
         let trimmed = item.toLowerCase().trim();
-        let splited = trimmed.split(" ");
-        if (splited.length > 1 && !(splited[1] !== "@gmail.com")) {
+        let splited = trimmed.split("\r\n");
+        if (
+          splited.length > 1 &&
+          !(splited[1] !== "@gmail.com") &&
+          !(splited[1] !== "u.edu.ng")
+        ) {
           filtered = [...filtered, ...splited];
         } else {
           filtered.push(trimmed);
@@ -89,7 +103,7 @@ const generateStudentObj = (arrayFormat) => {
 };
 
 const saveIntoAFile = (objectFormat) => {
-  fs.writeFile("./nacos-student-list.json", objectFormat, (err) => {
+  fs.writeFile("./nassa-student-list.json", objectFormat, (err) => {
     if (err) {
       console.log(err);
       return;
@@ -106,7 +120,7 @@ const saveIntoAFile = (objectFormat) => {
   });
 };
 
-getData("./nacos-student-list.txt")
+getData("./nassa-student-list.txt")
   .then((data) => {
     generateStudentArray(data).then((data) => generateStudentObj(data));
   })
