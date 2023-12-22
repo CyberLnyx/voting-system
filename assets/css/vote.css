@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/Voting-system-background-01.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e2e2e2;
+  background-position: 10% 10%;
+  background-attachment: fixed;
+  font-family: "Dosis", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0 0rem;
+  color: darkblue;
+  font-style: italic;
+}
+
+#logo {
+  display: block;
+  width: 150px;
+  margin-top: 2rem;
+}
+
+main {
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+#voting_form,
+#matric_no_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.matric_no {
+  font-size: 1rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+}
+
+#voting_form button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  border: none;
+  color: #fff;
+  background-color: aqua;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+#voting_form button:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+/* New Copy */
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+}
+/* Matric number container */
+#matric_no_container {
+  margin: 1rem 0rem;
+}
+
+#matric_no_container h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+#matric_no_container button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  border: none;
+  color: #fff;
+  background-color: aqua;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#matric_no_container button:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+/* Voting form section */
+
+.voting_section {
+  margin-bottom: 50px;
+}
+
+#voting_form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  transform: rotateX(0deg);
+  transform-origin: top;
+  opacity: 0;
+  animation: voting_form_animation 0.3s ease-in 0s 1 normal forwards;
+}
+
+#voting_form .form-group label {
+  margin-top: 1rem;
+}
+
+#voting_form .form-group select {
+  margin: 0.5rem 0rem 0rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+}
+
+#voting_form button {
+  opacity: 0;
+  animation: voting_form_animation 0.4s ease-in 0s 1 normal forwards;
+  position: fixed;
+  bottom: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+
+@keyframes voting_form_animation {
+  0% {
+    opacity: 0;
+    transform: rotateX(60deg);
+  }
+
+  50% {
+    opacity: 0.4;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
+/* modal */
+.processor,
+.modal_container,
+.vote_modal_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal,
+.vote_modal {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  aspect-ratio: 1/ 1.1;
+  margin-top: -60px;
+  border-radius: 0.5rem;
+  padding: 1.4rem 1rem;
+}
+
+#modal_text {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+
+#close_modal,
+#close_vote_modal,
+#submit_final_vote,
+.close_error_modal {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: aqua;
+  color: white;
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.6rem 0rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+#close_modal:hover,
+#close_vote_modal:hover,
+#submit_final_vote:hover,
+.close_error_modal:hover {
+  background-color: blue;
+}
+
+#submit_final_vote,
+#close_vote_modal {
+  margin-top: 0.8rem;
+}
+
+#confirm_vote_matric_no {
+  margin: 0.5rem 0;
+}
+
+#wrapless {
+  white-space: nowrap;
+  margin-bottom: 0.55rem;
+}
+
+@media screen and (max-width: 360px) {
+  .modal,
+  .vote_modal {
+    max-width: 85%;
+    padding: 1rem 0.6rem;
+  }
+
+  #wrapless {
+    /* white-space: nowrap; */
+    white-space: normal;
+    margin-bottom: 0.55rem;
+    font-size: 0.85rem;
+  }
+}
+
+.modal_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+.modal {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  aspect-ratio: 1/ 1.1;
+  margin-top: -60px;
+  border-radius: 0.5rem;
+  padding: 1.4rem 1rem;
+}
+
+.spinner {
+  width: 100px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: none;
+  border-top: 10px solid aqua;
+  animation: spinner 2s ease 0s infinite normal forwards;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.processor_text {
+  position: absolute;
+  z-index: 10;
+  color: white;
+}
+
+.processor_text span {
+  opacity: 0;
+}
+
+.processor_text .a {
+  animation: spanAnime 1s ease 3s infinite normal forwards;
+}
+
+.processor_text .b {
+  animation: spanAnime 1s ease 4s infinite normal forwards;
+}
+
+.processor_text .c {
+  animation: spanAnime 1s ease 0s infinite normal forwards;
+}
+
+@keyframes spanAnime {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.success_container,
+.error_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.successor,
+.error {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.successor img,
+.error img {
+  width: 80px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.successor p,
+.error p {
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+  .successor,
+  .error {
+    width: 200px;
+  }
+}

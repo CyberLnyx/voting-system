@@ -1,0 +1,153 @@
+:root {
+  --primary-blue: rgb(0, 183, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/Voting-system-background-01.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e2e2e2;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  margin: 1rem 0;
+  color: blue;
+  font-style: italic;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0 0rem;
+  color: darkblue;
+  font-style: italic;
+}
+
+#logo {
+  display: block;
+  width: 150px;
+  margin-top: 2rem;
+}
+
+main {
+  width: 80%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+#email_validator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+}
+
+#email_validator .form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  font-family: "Dosis", sans-serif;
+}
+
+#email_validator .form-group input {
+  margin: 1.5rem 0rem;
+  vertical-align: middle;
+  padding: 0.7rem 0.4rem;
+  border-radius: 0.4rem;
+  border: 0.2px solid var(--primary-blue);
+  width: 100%;
+  outline: 2px solid rgba(255, 255, 255, 0);
+  transition: 0.4s ease;
+}
+
+#email_validator .form-group input:focus {
+  outline: 2px solid var(--primary-blue);
+}
+
+#email_validator button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.4rem;
+  padding: 0.7rem;
+  border: none;
+  color: #fff;
+  background-color: var(--primary-blue);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+#email_validator button:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+.modal_container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+.modal {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  background-color: white;
+  aspect-ratio: 1/ 1.1;
+  margin-top: -60px;
+  border-radius: 0.5rem;
+  padding: 1.4rem 1rem;
+}
+
+#modal_text {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  font-family: "Dosis", sans-serif;
+}
+
+#close_modal {
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--primary-blue);
+  color: white;
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.6rem 1.5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+#close_modal:hover {
+  background-color: blue;
+}

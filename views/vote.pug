@@ -1,0 +1,70 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Voting Page
+    link(rel="stylesheet", href="/css/vote.css")
+    script(src="/js/vote.js" defer) 
+  body
+    <header>
+      img(src="/img/techu_logo.png", alt="technical university logo" id="logo")
+      <h1>Voting System</h1>
+    </header>
+    <main>
+
+      <section class="voting_section">
+        <div id="matric_no_container">
+          h1(style="display:none" id="hidden") #{userValid.matricNo}
+          <h2 class="matric_no">Current Matric No: #{userValid.matricNo}</h2>
+          <button id="edit_matric_no">Edit Matric No</button>
+        </div>
+
+        <form action="" method="post" id="voting_form">
+          each category in CATEGORIES
+            <div class="form-group">
+              label(for=`${category.categoryName}`) #{category.categoryName.split("-").join(" ").toUpperCase()}
+              select(name=`${category.categoryName}` id=`${category.categoryName}`)
+                <option value="none">~</option>
+                each nominee in category.nominees
+                  option(value=`${nominee}`) #{nominee}
+              </select>
+            </div>
+
+          <button type="submit" id="submit_vote">Submit Vote</button>
+        </form>
+      </section>
+
+      div(class="modal_container")
+        div(class="modal")
+          h2(id="modal_text") You haven't cast any vote yet.
+          button(id="close_modal") Close
+
+          <!-- Modal for vote confirmation displays -->
+      div(class="vote_modal_container")
+        div(class="vote_modal")
+          div(id="vote_modal_content")
+            <h2 style="text-align: center" id="confirm_vote_btn">Confirm Votes</h2>
+            div(class="votes")
+            <button id="close_vote_modal">Edit</button>
+            <button id="submit_final_vote">Submit</button>
+
+      .processor 
+        .spinner 
+        p.processor_text Processing
+          span.a .
+          span.b .
+          span.c .
+
+      .success_container 
+        .successor 
+          img(src="/img/success.png", alt="success")
+          p Vote Submitted Successfully
+
+      .error_container
+        .error 
+          img(src="/img/error.png", alt="error")
+          p An Error Occurred! Please try again.
+          button(class="close_error_modal") Try again
+    </main>
