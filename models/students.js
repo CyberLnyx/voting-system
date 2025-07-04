@@ -11,6 +11,11 @@ const StudentSchema = new mongoose.Schema(
         "Invalid email",
       ],
       unique: true,
+      lowercase: true,
+    },
+    matricNo: {
+      type: String,
+      required: [true, "Please provide matric number"],
     },
     hasVoted: {
       default: false,

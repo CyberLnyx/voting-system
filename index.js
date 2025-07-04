@@ -11,29 +11,46 @@ const path = require("path");
 
 const PORT = process.env.PORT || 8081;
 
+const corsOrigins = process.env.CORS_ORIGIN
+  ? process.env.CORS_ORIGIN.split(",")
+  : [];
+
 // initialize an express app
 const app = express();
 
 // middlewares
 
 // FOR cross origin request
+// app.use(
+//   // cors({
+//   //   // origin: process.env.CORS_ORIGIN || "http://localhost:5173",
+//   //   origin: "http://localhost:5173",
+//   //   credentials: true,
+//   //   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "UPDATE"],
+//   //   allowedHeaders: ["Content-Type", "Authorization"],
+//   // })
+//   // cors({
+//   //   origin:
+//   //     process.env.CORS_ORIGIN ||
+//   //     "https://students-week-voting-system.netlify.app",
+//   //   credentials: true,
+//   // })
+//   cors()
+// );
 app.use(
-  // cors({
-  //   // origin: process.env.CORS_ORIGIN || "http://localhost:5173",
-  //   origin: "http://localhost:5173",
-  //   credentials: true,
-  //   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "UPDATE"],
-  //   allowedHeaders: ["Content-Type", "Authorization"],
-  // })
-  // cors({
-  //   origin:
-  //     process.env.CORS_ORIGIN ||
-  //     "https://students-week-voting-system.netlify.app",
-  //   credentials: true,
-  // })
-  cors()
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "http://192.168.137.1:5173",
+      "http://192.168.137.1:5174",
+      "http://localhost:5000",
+      ...corsOrigins,
+    ],
+    credentials: true,
+  })
 );
-app.set("trust proxy", 1);
+// app.set("trust proxy", 1);
 // Others
 app.use(morgan("tiny")); // log request details
 app.use(methodChecker); // checks if the request method is supported

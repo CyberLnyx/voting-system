@@ -4,6 +4,7 @@ const { StatusCodes } = require("http-status-codes");
 const sendEmail = require("../helpers/email-sender");
 const Otp = require("../models/Otp");
 const Vote = require("../models/votes");
+const { webcrypto } = require("crypto");
 
 const insertStudentRecords = async (req, res) => {
   const record = req.body;
@@ -28,7 +29,8 @@ const sendVerificationCode = async (req, res) => {
   if (user.hasVoted) throw new BadRequestError("You have already voted!");
   let hasVoted = await Vote.findOne({ voteBy: email });
   if (hasVoted) throw new UnauthorizedError("You have already voted!");
-  const otpCode = Math.floor(Math.random() * 900000) + 100000;
+  // const otpCode = Math.floor(Math.random() * 900000) + 100000;
+  const otpCode = generateOTP();
   const expiresIn = new Date().getTime() + 300 * 1000;
   const newOtpDoc = { email, otpCode: otpCode.toString(), expiresIn };
   const alreadyExist = await Otp.findOne({ email });
@@ -77,6 +79,10 @@ const verifyOTP = async (req, res) => {
   return res
     .status(StatusCodes.OK)
     .json({ msg: "Token valid, please proceed to vote.", success: true });
+};
+
+const generateOTP = () => {
+  return webcrypto.getRandomValues(new Uint32Array(1)).toString().slice(0, 6);
 };
 
 module.exports = { insertStudentRecords, sendVerificationCode, verifyOTP };
