@@ -1,0 +1,183 @@
+[
+    {
+        "role": "President",
+        "nominees": [
+            {
+                "name": "Morakinyo Akinola David",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Auditor",
+        "nominees": [
+            {
+                "name": "Idowu Sunday Ajose",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Moses Naomi Oluwaseun",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Treasurer",
+        "nominees": [
+            {
+                "name": "Fasasi Sofiat Omotola",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "General Secretary",
+        "nominees": [
+            {
+                "name": "ZAKARIYAH ABDULMATIN",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Assistant General Secretary",
+        "nominees": [
+            {
+                "name": "Ayanleye Gloria Olubunmi",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Financial Secretary",
+        "nominees": [
+            {
+                "name": "AFOLABI Emmanuel Ibiyinka",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Ayomide Hamed",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Vice President",
+        "nominees": [
+            {
+                "name": "Olona Zainab Abidemi",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Vice President II",
+        "nominees": [
+            {
+                "name": "Habibat Taiwo",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Ikumapayi Adenike kauthar",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Welfare Director",
+        "nominees": [
+            {
+                "name": "Alli Eniola Modinat",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Speaker",
+        "nominees": [
+            {
+                "name": "Isiaka Haliyah nifemi",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Deputy Speaker",
+        "nominees": [
+            {
+                "name": "OLADIPUPO ELIJAH MOBOLAJI",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "PRO I",
+        "nominees": [
+            {
+                "name": "Moradeyo Olamide Grace",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Odewumi Anuoluwa Ayomide",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Bello Idris Olamide",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "PRO II",
+        "nominees": [
+            {
+                "name": "Oladimeji Temidayo Deborah",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Social Director",
+        "nominees": [
+            {
+                "name": "Adeniran Daniel",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Oladokun Sulaiman",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Sport Director",
+        "nominees": [
+            {
+                "name": "Umar olamide Adekunle",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Clerk",
+        "nominees": [
+            {
+                "name": "Adeyeye Ganiyat Damilola",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    },
+    {
+        "role": "Chief Whip",
+        "nominees": [
+            {
+                "name": "Adeleke Sulaimon Adesola",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            },
+            {
+                "name": "Bolaji Al-Ameen Olalekan",
+                "imgUrl": "https://firebasestorage.googleapis.com/v0/b/student-week-voting-system.appspot.com/o/2025%2Fman.png?alt=media&token=d0bda23b-31a0-4435-a9d4-2f880d2f6017"
+            }
+        ]
+    }
+]

@@ -1,5 +1,5 @@
 const { StatusCodes } = require("http-status-codes");
-const contestants = require("../constants/nassa-contestants.json");
+const contestants = require("../constants/2025-nassa-contestants.json");
 const { BadRequestError, UnauthorizedError } = require("../errors");
 const Students = require("../models/students");
 const Vote = require("../models/votes");
