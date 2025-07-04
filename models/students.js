@@ -15,7 +15,7 @@ const StudentSchema = new mongoose.Schema(
     },
     matricNo: {
       type: String,
-      required: [true, "Please provide matric number"],
+      // required: [true, "Please provide matric number"],
     },
     hasVoted: {
       default: false,
